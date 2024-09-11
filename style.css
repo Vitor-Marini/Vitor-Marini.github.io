@@ -1,0 +1,40 @@
+:root {
+    --cor-principal: #222831;
+    --cor-fundo: #EEEEEE;
+    --cor-texto: white;
+    --cor-link: #76ABAE;
+    --cor-hover: #53787a;
+  }
+  
+  
+  body {
+    background-color: #EEEEEE;
+    font-family: 'JetBrains Mono';
+    }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin-bottom: 0.5rem;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  header nav li {
+    margin-right: 1rem;
+  }
+  
+  header nav a {
+    color: white;
+    text-decoration: none;
+  }
