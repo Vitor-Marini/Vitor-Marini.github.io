@@ -6,11 +6,12 @@
     <link rel="icon" type="image/x-icon" href="imagens/Logo_JIRA.png">
     <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
     <link rel="stylesheet" href="../styles/style.css">
-    <title>Projeto J.I.R.A</title>
+    <title>Projeto JIRA</title>
+    
 </head>
 <body>
     <header>
-        <h1>Projeto J.I.R.A</h1>
+        <h1>Projeto JIRA</h1>
         <nav>
           <ul>
             <li><a href="../pages/home.html">Home</a></li>
@@ -21,5 +22,60 @@
             <li><a href="../pages/noticias.html">Notícias</a></li>
           </ul>
         </nav>
+        <div class="logo-container">
+          <img src="../imagens/Logo_JIRA.png" alt="Logo do Projeto JIRA" class="logo">
+        </div>
       </header>
+      
+      <main>
+        <section class="principal">
+            <div class="content-wrapper">
+                <h1 style="font-size: 2rem;">Detalhes do JIRA</h1>
+                <p style="font-size: 1rem; text-indent: 20px; text-align: justify;">
+                  O JIRA é um manipulador robótico com 6 graus de liberdade, projetado para oferecer alta precisão e versatilidade em uma ampla gama de aplicações educacionais e experimentais. Totalmente impresso em 3D, o JIRA combina leveza e robustez, utilizando um conjunto de seis servos motores: três MG996R para movimentos de maior torque e três SG90 para posições que exigem maior precisão e menor carga. Seu controle é realizado por uma ESP32, um microcontrolador potente e versátil que permite o controle de movimentos de forma eficiente, além de integrar-se com sensores e outros dispositivos periféricos para expandir as capacidades do robô.
+                </p>
+            </div>
+            <img src="../imagens/jira2.4.jpeg" alt="Braço Robótico JIRA" class="principal-image">
+        </section>
+        <br>
+        <section class="principal">
+          <div class="content-wrapper">
+              <h1 style="font-size: 2rem;">Detalhes do Aplicativo</h1>
+              <p style="font-size: 1rem; text-indent: 20px; text-align: justify;">
+                A comunicação entre o aplicativo e o JIRA é estabelecida por meio de uma rede Wi-Fi própria criada pelo robô, permitindo que o controle seja realizado de maneira direta e sem a necessidade de uma conexão com a internet. Esta configuração cria um ambiente seguro e dedicado para o controle do robô, garantindo respostas rápidas e um desempenho confiável durante as operações. Com o aplicativo, é possível não apenas mover o JIRA, mas também ajustar parâmetros e monitorar o status de operação em tempo real, facilitando a interação e o aprendizado sobre o funcionamento de sistemas robóticos complexos.
+              </p>
+          </div>
+          <img src="../imagens/jiraAPP.png" alt="Braço Robótico JIRA" class="principal-image">
+      </section>
+        <br>
+        <hr>
+        <section class="project-history">
+            <h2 style="margin-bottom: 1rem;">Aplicações</h2>
+            <p style="text-align: justify;">
+              O JIRA é um manipulador robótico versátil, capaz de executar tarefas de automação precisas e repetitivas, como a separação de objetos por cor e o movimento para locais predefinidos (pick and place). Graças ao seu sistema de reconhecimento de cores baseado em Python, o JIRA pode identificar e classificar objetos de maneira eficiente, transportando-os automaticamente para os destinos definidos. Essa funcionalidade é ideal para simulações de processos industriais, como linhas de produção e classificação de materiais, onde a automação e a precisão são fundamentais.
+
+              Além de suas habilidades de separação e movimentação, o JIRA se destaca pelo uso de um aplicativo desenvolvido em React Native, que proporciona uma interface amigável para controle e configuração do robô. Através do aplicativo, é possível não só monitorar o JIRA em tempo real, mas também definir novas rotinas, ajustar parâmetros de operação, e controlar manualmente cada um dos eixos do braço robótico. Isso permite ao usuário adaptar o JIRA para uma ampla gama de tarefas, desde atividades educativas em laboratórios de robótica até demonstrações em feiras de ciências ou protótipos de automação.
+              
+              Com o JIRA, as possibilidades são amplas: ele pode ser utilizado para ensino de conceitos de automação, robótica e programação, além de servir como plataforma para projetos experimentais em pesquisa e desenvolvimento. Sua facilidade de uso e configuração tornam o JIRA uma ferramenta poderosa tanto para iniciantes quanto para usuários avançados, oferecendo uma experiência de aprendizagem prática e interativa sobre o mundo da robótica.
+            </p>
+        </section>
+    </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h3>Contato:</h3>
+              <p>Email: jiraProject@gmail.com</p>
+              <p>Telefone: +55(19)123456789</p>
+            </div>
+            <div class="col-md-4">
+              <h3>Newsletter:</h3>
+              <form>
+                <input type="email" placeholder="Email">
+                <button type="submit" class="buttonSubit">Inscrever se</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </footer>
 </html>
